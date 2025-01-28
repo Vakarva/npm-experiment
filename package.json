@@ -8,8 +8,8 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
-        "dev": "vite",
         "build": "tsc -b && vite build",
+        "dev": "vite",
         "format": "prettier --write .",
         "preview": "vite preview",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,8 @@
     "devDependencies": {
         "@eslint/js": "^9.19.0",
         "eslint": "^9.19.0",
+        "eslint-plugin-react": "^7.37.4",
+        "eslint-plugin-react-hooks": "^5.1.0",
         "globals": "^15.14.0",
         "prettier": "^3.4.2",
         "typescript": "^5.7.3",
